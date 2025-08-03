@@ -8,6 +8,7 @@ docker-compose up -d
 
 ```bash
 docker-compose -f docker-compose.dev.yml up -d
+npm i
 npm run start:dev
 ```
 
