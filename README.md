@@ -1,10 +1,10 @@
-### Запуск через Docker Compose
+## Запуск через Docker Compose
 
 ```bash
 docker-compose up -d
 ```
 
-### Локальная разработка
+## Локальная разработка
 
 ```bash
 docker-compose -f docker-compose.dev.yml up -d
@@ -12,12 +12,12 @@ npm i
 npm run start:dev
 ```
 
-### API Документация
+## API Документация
 
 После запуска приложения Swagger документация доступна по адресу:
 **http://localhost:3000/docs**
 
-### Конфигурация
+## Конфигурация
 
 Настройки находятся в файле `.env`:
 
